@@ -3,7 +3,7 @@ require 'spec_helper'
 describe User do
 
   before do
-  	 @user = User.new(name: "Example User", email: "user@example.com"
+  	 @user = User.new(name: "Example User", email: "user@example.com",
               password: "foobar", password_confirmation: "foobar")
   end
 
@@ -97,5 +97,5 @@ describe User do
       specify { expect(user_for_invalid_password).to be_false }
     end
   end
-  
+
 end
