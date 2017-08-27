@@ -16,6 +16,3 @@
 /tmp
 
 bundler_stubs/
-
-# Ignore ruby versions
-.ruby-version
